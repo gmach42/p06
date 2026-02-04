@@ -1,4 +1,9 @@
-def patway_debate_mastery():
+def patway_debate_mastery() -> None:
+    """
+    Demonstrate absolute vs relative imports
+    in alchemy.transmutation module.
+    """
+
     print("=== Pathway Debate Mastery ===\n")
     print("Testing Absolute Imports (from basic.py): ")
     try:

@@ -1,4 +1,6 @@
-def import_transmutation_mastery():
+def import_transmutation_mastery() -> None:
+    """Demonstrate various import techniques in alchemy module."""
+
     print("=== Import Transmutation Mastery ===\n")
     try:
         print("Method 1 - Full module import:")

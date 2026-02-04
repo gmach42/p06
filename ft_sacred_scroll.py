@@ -1,7 +1,10 @@
 import alchemy
 
 
-def test_sacred_scroll():
+def test_sacred_scroll() -> None:
+    """
+    Demonstrate package exposure control via __init__.py in alchemy module.
+    """
 
     print("=== Sacred Scroll Mastery ===\n")
 
