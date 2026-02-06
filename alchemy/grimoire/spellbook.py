@@ -1,5 +1,3 @@
-
-
 def record_spell(spell_name: str, ingredients: str) -> str:
     """Record a spell with its ingredients after validation."""
     from .validator import validate_ingredients
